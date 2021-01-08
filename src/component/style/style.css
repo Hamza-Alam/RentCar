@@ -1,0 +1,212 @@
+p,h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Poppins', sans-serif;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+input:focus,select:focus{
+    outline: none;
+    border: none;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 20px 0;
+    z-index: 99999;
+}
+.navbar-inverse .nav {
+    margin: 0px 120px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    color: #000;
+    background-color: transparent;
+    font-weight: 700;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand {
+    color: #000;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color: #000;
+}
+.nav li.active:before {
+    content: "";
+    width: 45px;
+    height: 2px;
+    background: #e8551e;
+    position: absolute;
+    bottom: 4px;
+    right: 14px;
+}
+.leftNav li>a{
+    padding: 15px !important;
+}
+.rightNav{
+    margin: 0px !important;
+}
+.rightNav li>a{
+    padding: 15px 15px !important;
+    color: #000 !important;
+}
+.rightNav li>a i{
+    color: #000 !important;
+    font-weight: 600;
+}
+.rightNav .signUpBtn{
+    background: #e8551e;
+    padding: 15px 35px !important;
+    border-radius: 5px;
+    color: #fff !important;
+}
+#mainContent{
+    position: relative;
+    top: -112px;
+    background: #f4f4f4;
+}
+/******************** Home - CSS ************/
+#home{
+    background-image: url('../../assests/main-17.png');
+    padding: 250px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#home .formDiv{
+    text-align: center;
+}
+#home .formDiv h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+#home .formDiv form{
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 40px !important;
+    background: #fff;
+    padding: 0px 15px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(21, 25, 68, 0.12) 0px 6px 30px 0px, rgba(21, 25, 68, 0.05) 0px 8px 16px -12px, rgba(21, 25, 68, 0.02) 0px 4px 8px -3px;
+}
+#home .formDiv form .formContent{
+    padding: 10px 0px;
+}
+#home .formDiv form .searchBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 14px 40px;
+    border: 0;
+    background: #e8551e;
+    border-radius: 0px 8px 8px 0px;
+    color: #fff;
+}
+#home .formDiv form .searchBtn:before {
+    content: "\f002";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 9px;
+}
+#home .formDiv form .selectDiv{
+    position: relative;
+    border-right: 1px solid #bebebe;
+}
+#home .formDiv form .selectDiv i{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    font-size: 14px;
+}
+#home .formDiv form .selectDiv select{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 30px 0px 20px;
+}
+#home .formDiv form .selectDiv .brands_model{
+    color: #bebebe;
+}
+#home .formDiv form .selectDiv input{
+    border:none;
+    padding: 5px 0px 3px 36px;
+    width: 100%;
+    min-width: 120px;
+}
+#home .formDiv form .selectDiv:nth-child(2) i{
+    left: -4px !important;
+}
+/************** Market Status ***********/
+#marketStatus{
+    padding: 0px 0px 50px;
+}
+#marketStatus .chartDiv{
+    background: #fff;
+    padding: 80px 30px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+#marketStatus ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 7%;
+    margin: auto;
+}
+#marketStatus ul li{
+    color:#dedede;
+}
+#marketStatus ul li.active{
+    color: #e8551e;
+}
+#marketStatus .yourSearchDiv{
+    padding: 50px 0px;
+}
+#marketStatus .yourSearchDiv h2{
+    margin-bottom: 30px;
+}
+#marketStatus .yourSearchDiv p{
+    font-size: 14px;
+    font-weight: 600;
+}
+#marketStatus .yourSearchDiv .searchDiv{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+#marketStatus .yourSearchDiv .searchDiv img{
+    border-radius: 10px 10px 0px 0px;
+}
+#marketStatus .yourSearchDiv .searchDiv .imgContent{
+    padding: 10px 20px;
+    text-align: center;
+}
+#marketStatus .yourSearchDiv .searchDiv .imgContent p{
+    color: #dedede;
+}
+#marketStatus .yourSearchDiv .searchDiv .imgContent span{
+    color: #000;
+    font-weight: 600;
+}
+#marketStatus .yourSearchDiv .slick-slider{
+    margin-top: 40px;
+}
+.slick-prev:before{
+    color: #bebebe;
+}
+.slick-next:before{
+    color: black !important;
+}
+.slick-next:before{
+    content: "\f061" !important;
+}
+.slick-prev:before{
+    content: "\f060" !important;
+}
